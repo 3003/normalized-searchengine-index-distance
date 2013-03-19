@@ -1,7 +1,5 @@
 # Normalized Searchengine Index Distance #
-Normalized Searchengine Index Distance (NSID) is a simple generalization of [Normalized Google Distance](http://en.wikipedia.org/wiki/Normalized_Google_distance) based on the paper [Automatic meaning discovery using Google [pdf]](http://homepages.cwi.nl/~paulv/papers/amdug.pdf).
-
-Normalized Google Distance is derived from Normalized Compression Distance, which in turn is derived from the principles of Kolmogorov Complexity.
+Normalized Searchengine Index Distance (NSID), also called Normalized Web Distance ([NWD](http://homepages.cwi.nl/~paulv/papers/crc08.pdf)), is a simple generalization of [Normalized Google Distance](http://en.wikipedia.org/wiki/Normalized_Google_distance) based on the paper [Automatic meaning discovery using Google [pdf]](http://homepages.cwi.nl/~paulv/papers/amdug.pdf). Normalized Google Distance is derived from Normalized Compression Distance, which is derived from Normalized Information Distance, which in turn is derived from the principles of Kolmogorov Complexity.
 
 Machine learning techniques like random forests and SVM's are used to classify, cluster, auto-translate and more.
 
