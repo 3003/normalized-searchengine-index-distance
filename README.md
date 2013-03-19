@@ -9,7 +9,7 @@ The collection of files here is to research NSID globally, and specifically how 
 
 ##randomforestclassifier.py##
 ###Description###
-Predicts semantic relationships between a term and a trainingset, storing them in first-order logic. Currently trained to predict semantic relation to "colors".
+Predicts semantic relationships between a term and a trainingset, storing them in first-order logic. Currently trained to predict semantic relation to "colors", fed with data from the Hackernews Search API ([HN Search](https://www.hnsearch.com/api)).
 ###Dependancies###
 urllib2, json, math, numpy, sklearn.
 ###Sample output###
