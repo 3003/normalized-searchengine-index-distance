@@ -52,7 +52,6 @@ def predict_class(classifier_object, data, result = 1):
 	return float(classifier_object.predict_proba(data)[0][1])
 	
 # TRAINING, TESTING
-
 def create_training_set(anchors, train_positive, train_negative, filename = 'data/mytrainingset.csv'):
 	hits = {}
 	for item in anchors + train_positive + train_negative:
@@ -107,7 +106,6 @@ train_negative = ["metal", "cold", "virus"]
 
 tests = ["crimson", "rose", "tangerine", "grey", "pastel", "design", "colors", "white", "contrast", "beige", "lilac"]
 
-
 #create_test_set(anchors, tests)
 #create_training_set(anchors, train_positive, train_negative)
 
@@ -115,5 +113,4 @@ clss = build_classifier()
 for term in tests:
 	predict_proba = predict_class(clss, create_test_case(anchors, term))
 	rclass = "colors"
-	print "semantic_relation("+term+","+rclass+")["+str(float(predict_proba))+"]"
-		
+	print "semantic_relation("+term+","+rclass+")["+str(float(predict_proba))+"]"	
